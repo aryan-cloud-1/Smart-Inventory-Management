@@ -1,0 +1,64 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven target directories
+target/
+backend/target/
+
+# Node.js & Vite build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Local secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor folders
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Heavy binaries and bundled runtime tools (DO NOT PUSH TO GITHUB)
+tools/
+apache-maven*.zip
+jdk*.zip
+*.tmp
+
+.vite/
+frontend/.vite/
